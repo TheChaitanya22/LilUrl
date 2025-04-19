@@ -49,7 +49,7 @@ const Home = () => {
                 />
                 <button 
                     onClick={handleShortenUrl} 
-                    className="w-full bg-violet-500 text-white py-2 rounded hover:bg-violet-700"
+                    className="w-full bg-violet-500 text-white py-2 rounded hover:bg-violet-700 cursor-pointer"
                 >
                     Shorten URL
                 </button>
@@ -66,13 +66,13 @@ const Home = () => {
             </div>
             <div className="flex gap-6 mt-6">
                 <button 
-                    className="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800"
+                    className="cursor-pointer bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800"
                     onClick={() => navigate("/signin")}
                 >
                     Login
                 </button>
                 <button 
-                    className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                    className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 cursor-pointer"
                     onClick={() => navigate("/signup")}
                 >
                     Create Account

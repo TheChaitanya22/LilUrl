@@ -30,7 +30,7 @@ export const Signin = () => {
                     navigate("/Dashboard")
                 }}/>
                 <Warning label={"Don't have an account?"} buttonText={"Sign up"} to={"/signup"} />
-                <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 cursor-pointer"
                     onClick={() => navigate("/Home")}>Go back to home</button> 
             </div>
         </div>
