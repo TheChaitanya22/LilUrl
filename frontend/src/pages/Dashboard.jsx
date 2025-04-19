@@ -58,8 +58,8 @@ const Dashboard = () => {
       }, []);
 
     return (
-        <div className="container mx-15 mt-10 overflow-hidden">
-            <button className="bg-slate-700 text-white px-4 py-2 rounded hover:bg-slate-800"
+        <div className="container mx-15 mt-10 overflow-auto">
+            <button className="bg-slate-700 text-white px-4 py-2 rounded hover:bg-slate-800 cursor-pointer"
                 onClick={() => navigate("/Home")}>Go back to Home</button>
             <div className="flex flex-col items-start mt-10 ">
                 <div className="bg-white p-6 rounded shadow-md w-auto transition-transform duration-500 hover:scale-105">
@@ -73,7 +73,7 @@ const Dashboard = () => {
                     />
                     <button
                         onClick={handleShortenUrl}
-                        className="w-full bg-violet-500 text-white py-2 rounded hover:bg-violet-700"
+                        className="w-full bg-violet-500 text-white py-2 rounded hover:bg-violet-700 cursor-pointer"
                     >
                         Shorten URL
                     </button>
